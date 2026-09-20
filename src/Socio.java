@@ -1,5 +1,3 @@
-package examen1eval;
-
 import java.util.Scanner;
 
 public class Socio extends Persona{
