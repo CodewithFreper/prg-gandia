@@ -13,6 +13,18 @@ public class Fecha {
         System.out.println(dia + "/" + mes + "/" + anyo);
     }
 
+    public void setDia(int dia){
+        this.dia = dia;
+    }
+
+    public void setMes(int mes){
+        this.mes = mes;
+    }
+
+    public void setAnyo(int anyo){
+        this.anyo = anyo;
+    }
+
     private boolean comprobarFecha(){
         if (mes < 1 || mes >12){
             return false;
